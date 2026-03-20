@@ -682,6 +682,29 @@
       color: var(--muted);
       font-style: italic;
     }
+    .identity-contact {
+      margin-top: 14px;
+      display: grid;
+      gap: 10px;
+    }
+    .identity-item {
+      display: grid;
+      gap: 3px;
+    }
+    .identity-label {
+      font-size: 10px;
+      line-height: 1.2;
+      letter-spacing: .11em;
+      text-transform: uppercase;
+      color: var(--brand);
+      font-weight: 800;
+    }
+    .identity-text {
+      font-size: 12.5px;
+      line-height: 1.45;
+      color: var(--muted);
+      margin: 0;
+    }
 
     .sticky-wa {
       position: fixed;
@@ -1266,12 +1289,10 @@
     <div class="container grid-2">
       <div class="visual-surface">
         <div class="dash-large">
-          <span>Preview Dashboard SCADA-IoT</span>
           <div class="scada-preview">
             <div class="scada-top">
               <div class="scada-title">
                 <strong>WTP <em>SCADA-IoT</em></strong>
-                <span>System Capacity: 1500 m³/day</span>
               </div>
               <div class="scada-clock" id="scadaClock">00:00:00</div>
             </div>
@@ -1363,11 +1384,6 @@
       <div class="cta-row" style="justify-content:center; margin-top: 18px;">
         <a class="btn primary" href="https://wa.me/6285219493322?text=Halo%20Pak%20Irfon,%20saya%20ingin%20diskusi%20kebutuhan%20air%20industri%20untuk%20perusahaan%20kami.%0A%0ANama%20perusahaan:%0ALokasi:%0AKebutuhan:%20___%20m%C2%B3/hari" target="_blank" rel="noopener noreferrer">Chat WhatsApp untuk Analisa Project</a>
       </div>
-      <div class="lead-prompt">
-        <span class="lead-pill">Nama perusahaan</span>
-        <span class="lead-pill">Lokasi</span>
-        <span class="lead-pill">Kebutuhan m³/hari</span>
-      </div>
     </div>
   </section>
 
@@ -1375,7 +1391,6 @@
     <div class="container footer-grid">
       <div class="footer-box">
         <div class="section-head" style="margin-bottom:14px;">
-          <span class="section-label">Logo-logo Klien</span>
         </div>
         <div class="logo-grid">
           <div class="logo-pill"><img src="cemerlang-samudra-kontrindo.png" alt="Cemerlang Samudra Kontrindo" /></div>
@@ -1392,7 +1407,16 @@
       <div class="footer-box identity">
         <h3>Invila <sup>TM</sup></h3>
         <p><em>Empowering Industry with Zero CAPEX Water Infrastructure</em></p>
-        <p>Sentra Niaga 2 No. 5, Harapan Indah, Bekasi 17131, Jawa Barat</p>
+        <div class="identity-contact">
+          <div class="identity-item">
+            <span class="identity-label">Office</span>
+            <p class="identity-text">KOMP. PERKANTORAN PULO MAS Lt. 1 Jl PERINTIS KEMERDEKAAN JAKARTA TIMUR 13260 &nbsp;&nbsp; Phone +622129833524</p>
+          </div>
+          <div class="identity-item">
+            <span class="identity-label">Workshop</span>
+            <p class="identity-text">Sentra Niaga 2 No. 5, Harapan Indah, Bekasi 17131, Jawa Barat &nbsp;&nbsp; Phone +6288866168 &nbsp;&nbsp; Mobile : 085219493322</p>
+          </div>
+        </div>
       </div>
     </div>
   </footer>
